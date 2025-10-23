@@ -13,7 +13,7 @@ body{
     overflow-x: hidden; 
     }
 .home-page{
-  background-image: url(http.png);
+  background-image: url(/public/http.png);
 }
 .navbar{
   @apply border-2 rounded;

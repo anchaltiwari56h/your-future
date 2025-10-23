@@ -26,7 +26,6 @@ dist-ssr
 #ignore folder
 gsap/
 three.js/
-public/
 src/
 image/
 node_modules/

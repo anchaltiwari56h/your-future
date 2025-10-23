@@ -1,0 +1,354 @@
+.tech{
+    background-image: url(paint3.png);
+    
+
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.maths{
+    margin-left: 20px;
+}
+.maths h2{
+    font-size: 30px;
+    font-weight: 500;
+     color: rgb(34, 11, 247);
+     text-shadow:  2px 3px 5px rgb(31, 146, 248);
+}
+.btech{
+    margin-left: 20px;
+}
+.btech li{
+    margin-left: 50px;
+}
+.btech h3{
+    margin-left: 15px;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    font-weight: 550;
+}
+.btech  p{
+    width: 60%;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgba(41, 193, 239, 0.481), rgba(73, 183, 187, 0.305),rgba(164, 73, 187, 0.523),rgba(57, 123, 133, 0.41));
+    border-radius: 10px;
+    
+}
+.maths li {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bsc h3{
+    margin-left: 15px;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    font-weight: 550;
+}
+.bsc p {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 6px;
+    background: linear-gradient(to right, rgba(8, 212, 205, 0.586), rgba(255, 192, 203, 0.647), rgba(164, 73, 187, 0.523));
+    width: 40%;
+    border-radius: 10px;
+}
+.bsc li {
+    line-height: 2rem;
+    margin-left: 45px;
+    font-size: 15px;
+}
+.footr{
+    color: black;
+    background: linear-gradient(to bottom, rgba(104, 193, 205, 0.419));
+    border-radius: 1px 1px 3px rgba(105, 220, 236, 0.763) ;
+    }
+ 
+.Mcont{
+    margin: 30px;
+}
+.Mcont h2{
+    margin-bottom: 20px;
+     font-size: 35px;
+     font-weight: 600;
+     margin-top: 10px;
+}
+.bank p {
+    margin: 6px;
+    font-size: 20px;
+    font-style: italic;
+    width: 50%;
+    box-shadow: 1px 1px 2px rgba(2, 157, 200, 0.763);
+    padding: 3px;
+    margin-bottom: 7px;
+    }
+.bank li{
+    margin-left: 40px;
+    line-height: 2rem;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.upsc h4  {
+    margin-left: 30px;
+     font-size: 25px;
+     font-weight: 550;
+     color: rgb(205, 9, 9);
+     font-family: cursive;
+     text-decoration: underline 2px rgb(4, 197, 240);
+     letter-spacing: 2px;
+}
+h4{
+    margin-left: 30px;
+     font-size: 25px;
+     font-weight: 550;
+     color: rgb(252, 47, 47);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-decoration: underline 2px rgb(41, 81, 243);
+     letter-spacing: 2px;
+}
+.ult{
+     list-style-type: circle;
+     margin-left: 40px;
+}
+.sub-li{
+    list-style-type: square;
+    margin-left: 15px;
+}
+.rail{
+   list-style-type: upper-latin;
+}
+.upsc h3{
+    margin: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+h3{
+    margin: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+.nda{
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    margin: 10px;
+    color: rgb(75, 53, 25);
+    letter-spacing: 1.7px;
+}
+.heding{
+    margin: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 550;
+}
+.parts{
+    margin: 20px;
+    font-size: 18px;
+    
+}
+@media screen and (min-width: 700px) and (max-width: 930px) {
+ .explore{
+   font-size: 30px;
+    }
+.btech  p{
+    width: 80%;
+    margin: 20px;
+    }
+.bsc p {
+     width: 60%;
+}
+.bank li{
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+.bank p {
+    margin: 6px;
+    font-size: 20px;
+    font-style: italic;
+    width: 100%;
+    padding: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+    .heding{
+    margin: 8px;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 550;
+}
+}
+@media screen and (min-width: 550px) and (max-width: 700px) {
+ .explore{
+   font-size: 28px;
+    }
+.btech  p{
+    width: 95%;
+    margin: 15px;
+    margin-left: -5px;
+    font-weight: 100;
+    font-size: 17px;
+    }
+.bsc p {
+     width: 60%;
+     font-size: 18px;
+}
+.btech h3{
+    margin-left: 10px;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 550;
+}
+.maths h2{
+    font-size: 25px;
+    }
+.bsc li {
+    line-height: 1.5rem;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.btech li{
+    margin-left: 30px;
+}
+.nda{
+    font-size: 16px;    
+}
+.bank p {
+    margin: 6px;
+    font-size: 18px;
+    font-style: italic;
+    width: 100%;
+    padding: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+  .bank li{
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+ }
+@media screen and (min-width: 300px) and (max-width: 550px) {
+ .explore{
+   font-size: 25px;
+   margin-left: 3px;
+    }
+.btech{
+    margin-left: 10px;
+}
+.btech  p{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -3px;
+    font-weight: 100;
+    font-size: 16px;
+    
+    }
+.bsc p {
+     width: 100%;
+     font-size: 16px;
+     margin-top: 10px;
+}
+.btech h3{
+    margin-left: -10px;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 550;
+}
+.maths h2{
+    font-size: 20px;
+    }
+.bsc li {
+    line-height: 1.5rem;
+    margin-left: 10px;
+    font-size: 14px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btech li{
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.maths{
+    margin-left: 5px;
+}
+.bsc h3{
+    margin-left: 6px;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-weight: 550;
+}
+.anchor a{
+   font-size: 14px;
+  }
+.navba h1{
+    font-size: 15px;
+}
+.nda{
+    font-size: 14px;    
+}
+.bank p {
+    margin: 6px;
+    font-size: 16px;
+    font-style: italic;
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+  .bank li{
+    line-height: 1.3rem;
+    font-size: 14px;
+}
+.Mcont{
+    margin: 5px;
+}
+.ult{
+   margin-left: 20px;
+}
+.sub-li{
+  margin-left: 0px;
+}
+.heding{
+    font-size: 18px;
+}
+.Mcont h2{
+    margin-bottom: 10px;
+     font-size: 23px;
+     font-weight: 600;
+     margin-top: 7px;
+}
+.upsc h3{
+    margin: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+h3{
+    margin: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+h4{
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.upsc h4  {
+     margin-left: 20px;
+     font-size: 17px;
+     letter-spacing: 1px;
+}
+}
+

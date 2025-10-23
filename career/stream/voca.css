@@ -1,0 +1,53 @@
+.vocational{
+    background-image: url(paint8.png);
+}
+.voca-strm{
+    margin: 20px;
+}
+.hed-7{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(249, 20, 108);
+    text-shadow: 1px 1px 4px rgb(199, 92, 228);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+}    
+.btn-2{
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(111, 177, 239), rgb(200, 224, 241));
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 1px 2px 3px rgb(24, 172, 240);
+    margin-left: 30%;
+     font-family: cursive;
+}
+
+@media screen and (min-width: 530px) and (max-width: 740px) {
+  .hed-7{
+    font-size: 30px;
+       
+}
+}
+@media screen and (min-width: 300px) and (max-width: 530px) {
+  .hed-7{
+    font-size: 20px;
+       
+}
+.btn-2{
+    height: 30px;
+    width: 140px;
+    margin: 13px;
+    font-size: 15px;
+     margin-left: 10%;
+     }
+}

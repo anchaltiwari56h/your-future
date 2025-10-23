@@ -1,0 +1,183 @@
+.arts{
+  background-image: url(paint7.png);
+}
+.arts-stream{
+   margin-left: 20px;
+    
+}
+.hed-5{
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(239, 149, 32);
+    text-shadow: 4px 5px 6px rgb(216, 187, 245);
+}
+.career-category h2{
+    width: 50%;
+   font-size: 26px;
+   margin: 10px;
+   box-shadow: 1px 2px 5px rgb(199, 147, 251);
+   
+}
+.career-category li{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 2rem;
+    font-family: Cambria, Cochin, serif;
+} 
+.btn-1{
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(177, 111, 239), rgb(227, 200, 241));
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 1px 2px 3px rgb(193, 24, 240);
+    margin-left: 30%;
+     font-family: cursive;
+}
+.arts-humanities{
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.arts-humanities h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.arts-humanities h3{
+    width: 50%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    box-shadow: 1px 4px 4px palevioletred;
+    margin-bottom: 10px;
+    color: crimson;
+}
+.arts-humanities li{
+    margin: 20px;
+     font-size: 18px;
+     line-height: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
+@media screen and (min-width: 730px) and (max-width: 950px) {
+
+.hed-5{
+    font-size: 30px;
+    }
+.career-category h2{
+    width: 70%;
+   font-size: 24px;
+   margin: 8px;
+  }
+.arts-humanities{
+    margin: 15px;
+    margin-left: 15px;
+}
+.arts-humanities h1{
+   margin-bottom: 26px;
+   font-size: 35px;
+}
+.arts-humanities h3{
+    width: 70%;
+    font-size: 23px;
+    }
+.arts-humanities li{
+    margin: 15px;
+     font-size: 16px;
+     line-height: 1.7rem;
+}
+}
+
+@media screen and (min-width: 530px) and (max-width: 730px) {
+
+.hed-5{
+    font-size: 27px;
+    }
+.career-category h2{
+    width: 90%;
+   font-size: 20px;
+   margin: 6px;
+  }
+.career-category li{
+    margin-left: 30px;
+    font-size: 17px;
+    line-height: 1.6rem;
+    }
+    .btn-1{
+    height: 40px;
+    width: 170px;
+  } 
+.arts-humanities{
+    margin: 15px;
+    margin-left: 15px;
+}
+.arts-humanities h1{
+   margin-bottom: 22px;
+   font-size: 28px;
+}
+.arts-humanities h3{
+    width: 90%;
+    font-size: 20px;
+    }
+.arts-humanities li{
+    margin: 15px;
+     font-size: 14px;
+     line-height: 1.4rem;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 530px) {
+
+.hed-5{
+    font-size: 20px;
+
+    }
+.career-category h2{
+    width: 100%;
+   font-size: 16px;
+   margin: 4px;
+   
+  }
+.career-category li{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.4rem;
+    }
+    .btn-1{
+    height: 30px;
+    width: 140px;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .arts-humanities{
+    margin: 5px;
+    margin-left: 5px;
+}
+.arts-humanities h1{
+   margin-bottom: 18px;
+   font-size: 20px;
+}
+.arts-humanities h3{
+    width: 100%;
+    font-size: 16px;
+    }
+.arts-humanities li{
+     margin: 6px;
+     font-size: 13px;
+     line-height: 1.2rem;
+} 
+
+}

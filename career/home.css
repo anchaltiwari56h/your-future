@@ -1,0 +1,341 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+    width: 100dvw;
+    scroll-behavior: smooth;
+    font-family: "Mona Sans", sans-serif;
+    overflow-x: hidden; 
+    }
+.home-page{
+  background-image: url(http.png);
+}
+.navbar{
+  @apply border-2 rounded;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(28, 25, 67));
+  border: 1px solid rgb(30, 29, 29);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 3px rgb(6, 3, 41);
+    
+}
+
+.btn{
+    color: black;
+    background-image: linear-gradient(to bottom, rgb(34, 54, 201), rgb(175, 191, 224));
+    @apply  px-7 py-2 rounded-lg  flex justify-center items-center cursor-pointer overflow-hidden
+    uppercase md:text-lg text-black transition-all duration-500 translate-x-5;
+    letter-spacing: 2px;
+   transition: background-color 2s ease-in , transform 4s ease; 
+}
+.hero{
+  color: rgb(201, 227, 241);
+  height: 50dvw;
+  background-size: cover;
+  
+}
+.footer{
+  background-image: linear-gradient(to right, rgb(47, 46, 46), rgb(9, 9, 54));
+}
+.box{
+  /* border: 1px solid gray; */
+  position:relative;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  height: 350px;
+  margin-top: 20px;
+  width: 60%;
+  box-shadow: 6px 6px 7px rgb(28, 26, 67);
+  border-radius: 10px; 
+  margin-bottom: 30px;
+ 
+}
+
+.h1{
+  font-size: 60px;
+  padding: 0px 20px 0px 20px;
+}
+.h1{
+   padding: 0px 20px 0px 21px;
+   font-size: 60px;
+   background: linear-gradient(90deg, rgb(53, 132, 244), rgb(248, 8, 216), rgb(47, 82, 237));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bold;
+}
+.h2{
+   padding: 0px 20px 0px 21px;
+   font-size: 50px;
+   background: linear-gradient(to right, rgb(6, 93, 233), rgb(247, 15, 96), rgb(69, 37, 215));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bold;
+}
+.h3{
+  padding-top: 30px;
+  font-size: 20px;
+}
+.part-b{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 20;
+  height: 70px;
+  margin-bottom: 40px;
+ }
+ .button{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ }
+.btn:hover{
+  background-image: linear-gradient(to bottom, rgb(124, 134, 226), rgb(79, 82, 241));
+  
+  transform : scale(1.01);
+  
+}
+
+ @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .animate-border-spin::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -40%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(
+                transparent,
+                #109ee6c2,
+                transparent 40%
+            );
+            animation: rotate 20s linear infinite;
+        }
+        .boxx{ border: 1px solid rgb(118, 141, 166);
+          background: transparent;
+          display: flex;
+          padding: 10px;
+        }
+  .contain{
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 40px; /* spacing between divs */
+  width: 55rem; /* optional */
+  margin: auto;
+  height: 40rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  }
+
+  .popular{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(226, 240, 242);
+    font-weight: 40px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgb(128, 160, 241);
+  }
+
+  .head {
+    font-weight: bold;
+    color: rgb(116, 161, 243);
+    text-shadow: 1px 1px 5px rgba(205, 222, 231, 0.526);
+  }
+
+
+  @media screen and (min-width: 900px) and (max-width: 1024px) {
+  
+  .hero{
+   height: 70dvw;
+   
+}
+.box{
+  height: 300px;
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+ }
+.h1{
+   padding: 0px 10px 0px 10px;
+   font-size: 45px;
+   
+}
+.h2{
+   padding: 0px 10px 0px 10px;
+   font-size: 38px;
+ 
+}
+.h3{
+  padding-top: 50px;
+  font-size: 18px;
+}
+.part-b{
+  font-size: 20px;
+  font-weight: 13px;
+  height: 40px;
+  
+ }
+ .button{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
+ .contain{
+  gap: 20px; /* spacing between divs */
+  width: 45rem; /* optional */
+  height: 43rem;
+ 
+  }
+  .popular{
+   font-weight: 30px;
+    font-size: 2rem;
+    }
+}
+
+ @media screen and (min-width: 600px) and (max-width: 900px) {
+  body{
+   width: 100%;
+  }
+  .hero{
+   height: 80dvh;
+   
+}
+.box{
+  height: 250px;
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+ }
+.h1{
+   padding: 0px 10px 0px 10px;
+   font-size: 38px;
+   
+}
+.h2{
+   padding: 0px 10px 0px 10px;
+   font-size: 30px;
+ 
+}
+.h3{
+  padding-top: 30px;
+  font-size: 17px;
+}
+.part-b{
+  font-size: 17px;
+  font-weight: 11px;
+  height: 40px;
+  
+ }
+ .button{
+   display: flex;
+  justify-content: center;
+  text-align: center;
+  }
+ .contain{
+  gap: 20px; /* spacing between divs */
+  grid-template-columns: repeat(1, 1fr); /* 1 columns */
+  width: 65rem; /* optional */
+  margin: auto;
+  height: 70rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+ 
+  }
+  .popular{
+   font-weight: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+     justify-content: flex-start;
+     margin-left: 2rem;
+     margin-bottom: -1rem;
+    }
+    .boxx{
+      width: 90rem;
+      margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  body{
+   width: 100%;
+  }
+  .hero{
+   height: 100dvh;
+   
+}
+.box{
+  height: 350px;
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 1rem;
+ }
+.h1{
+   padding: 2px 5px 4px 5px;
+   font-size: 35px;
+   
+}
+.h2{
+   padding: 0px 10px 0px 10px;
+   font-size: 32px;
+ 
+}
+.h3{
+  padding-top: 30px;
+  font-size: 15px;
+}
+.part-b{
+  font-size: 17px;
+  font-weight: 11px;
+  height: 40px;
+  
+ }
+ .button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+   }
+ .contain{
+  gap: 20px; /* spacing between divs */
+  grid-template-columns: repeat(1, 1fr); /* 2 columns */
+  width: 40rem; /* optional */
+  margin: auto;
+  height: 70rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  }
+  .popular{
+   font-weight: 15px;
+    font-size: 1.2rem;
+    text-align: left;
+     justify-content: flex-start;
+     margin-left: 1rem;
+     margin-bottom: -1rem;
+    }
+    .cont{
+      padding: 0;
+    }
+}
+
+
